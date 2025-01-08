@@ -1,14 +1,24 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f9;
     color: #333;
+    background: #fff;
 }
-h1 {
+
+header {
     text-align: center;
-    color: #0066cc;
+    padding: 2rem;
 }
+
+main {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
 p {
-    text-align: center;
+    font-size: 1.1rem;
+    text-align: justify;
 }
